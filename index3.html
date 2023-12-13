@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        article {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ratings {
+            margin-top: 20px;
+        }
+
+        .comments {
+            margin-top: 40px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Technical Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <article>
+            <img src="dl.png" alt="Article Image">
+            <h2>Deep Learning</h2>
+            <p>Author: Shubham Ramdas Lokhande</p>
+            <p>Date: 28 Jan 2020</p>
+            <p>Deep learning is a subfield of machine learning that focuses on the development and training of artificial neural networks to perform tasks without explicit programming. The term "deep" refers to the use of deep neural networks, which consist of multiple layers of interconnected nodes (artificial neurons) to model complex patterns and representations in data. Unlike traditional machine learning models, deep learning excels at automatically learning hierarchical features from raw data, making it particularly effective in tasks such as image and speech recognition, natural language processing, and complex decision-making.</p>
+            <!-- Ratings Section -->
+            <div class="ratings">
+                <span>Ratings: 4.8/5</span>
+            </div>
+
+            <!-- Comments Section -->
+            <div class="comments">
+                <h3>Comments:</h3>
+                <p>User1: Great article!</p>
+                <p>User2: Interesting insights!</p>
+            </div>
+        </article>
+
+        <!-- More articles can be added here -->
+    </section>
+
+  
+
+    <footer>
+        <p>&copy; 2023 Technical Blog | Designed by [Your Name]</p>
+    </footer>
+
+</body>
+
+</html>

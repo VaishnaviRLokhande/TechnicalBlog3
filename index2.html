@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        article {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ratings {
+            margin-top: 20px;
+        }
+
+        .comments {
+            margin-top: 40px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Technical Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <article>
+            <img src="ml.png" alt="Article Image">
+            <h2>Machine Learning</h2>
+            <p>Author: Utkarsha Eknath Thombal</p>
+            <p>Date: 28 Sept 2013</p>
+            <p>
+                Machine learning is a transformative discipline within artificial intelligence, revolutionizing how computers operate by enabling them to learn from data without explicit programming. At its core, machine learning involves the development of algorithms that leverage statistical patterns within datasets, allowing systems to improve their performance on specific tasks over time. The field encompasses various learning paradigms, including supervised learning, unsupervised learning, and reinforcement learning, each serving distinct purposes. Algorithms such as decision trees, support vector machines, and neural networks are deployed to model complex relationships within data. Feature engineering, the process of selecting and refining input variables, is crucial for optimal model performance. Machine learning finds applications across diverse domains, including natural language processing, computer vision, healthcare, finance, and recommendation systems. Challenges include ensuring interpretability, addressing ethical considerations related to biases, and developing algorithms for continual learning in dynamic environments. As technology advances, machine learning continues to shape the future, driving innovations and improvements in various industries.</p>
+
+            <!-- Ratings Section -->
+            <div class="ratings">
+                <span>Ratings: 4.5/5</span>
+            </div>
+
+            <!-- Comments Section -->
+            <div class="comments">
+                <h3>Comments:</h3>
+                <p>User1: Great article!</p>
+                <p>User2: Interesting insights!</p>
+            </div>
+        </article>
+
+        <!-- More articles can be added here -->
+    </section>
+
+  
+
+    <footer>
+        <p>&copy; 2023 Technical Blog | Designed by [Your Name]</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .blog-post {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .blog-post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .blog-post h3 {
+            margin-top: 0; /* Remove default margin for better alignment */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Technical Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid-container">
+        <div class="blog-post">
+            <a href="home.html">
+                <img src="ai.jpg" alt="Article Image">
+                <h3>Artificial Intelligence</h3>
+            </a>
+            <p>Author: Vaishnavi Ramdas Lokhande</p>
+            <p>Date: [Publication Date]</p>
+            <p>Content goes here...</p>
+        </div>
+
+        <div class="blog-post">
+            <a href="index2.html">
+                <img src="dl.png" alt="Article Image">
+                <h3>Machine Learning</h3>
+            </a>
+            <p>Author: Utkarsha Harishchandra Gend</p>
+            <p>Date: [Publication Date]</p>
+            <p>Content goes here...</p>
+        </div>
+
+        <div class="blog-post">
+            <a href="index3.html">
+                <img src="ai2.jpg" alt="Article Image">
+                <h3>Internet of Things</h3>
+            </a>
+            <p>Author: Utkarsha Harishchandra Gend</p>
+            <p>Date: [Publication Date]</p>
+            <p>Content goes here...</p>
+        </div>
+
+        <div class="blog-post">
+            <a href="index4.html">
+                <img src="ml.png" alt="Article Image">
+                <h3>Deep Learning</h3>
+            </a>
+            <p>Author: Utkarsha Harishchandra Gend</p>
+            <p>Date: [Publication Date]</p>
+            <p>Content goes here...</p>
+        </div>
+        
+        <!-- Repeat the same pattern for other blog posts -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Technical Blog | Designed by [Your Name]</p>
+    </footer>
+
+</body>
+</html>
